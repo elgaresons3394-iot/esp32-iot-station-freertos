@@ -4,7 +4,7 @@ Firmware ESP32 publiant en temps réel des données de température et d'humidit
 sur un broker MQTT, avec une architecture logicielle basée sur **FreeRTOS**
 (deux tâches indépendantes, communication par queue, dual-core).
 
-**Simulation en ligne (Wokwi)** : https://wokwi.com/projects/477064966556889089
+**Simulation en ligne (Wokwi)** : https://wokwi.com/projects/477243388282320897
 
 ---
 
@@ -69,7 +69,7 @@ Schéma complet dans [`diagram.json`](./diagram.json) (compatible Wokwi).
 ## Comment tester
 
 ### Option 1 — Simulation Wokwi (aucun matériel requis)
-1. Ouvrir le [lien de simulation](https://wokwi.com/projects/477064966556889089)
+1. Ouvrir le [lien de simulation] https://wokwi.com/projects/477243388282320897
 2. Lancer la simulation (▶️)
 3. Ouvrir [MQTT Explorer](http://mqtt-explorer.com/), se connecter à
    `broker.hivemq.com`, s'abonner au topic `tunisie/iot/station_meteo`
